@@ -17,7 +17,7 @@ async def typewriter(typew):
     await typew.edit("`PANTEK PANTEK PANTEK!!!`")
     sleep(3)
     await typew.edit("`DASAR MUKA JELEK!!!`")
-# Owner @Si_Dian
+# Owner @leaversy
 
 
 @register(outgoing=True, pattern='^\\.G(?: |$)(.*)')
@@ -27,7 +27,7 @@ async def typewriter(typew):
     await typew.edit(f"**DUAR MEMEK**")
     sleep(3)
     await typew.edit("`APA GK SUKA GELUTT!!!`")
-# Owner @Si_Dian
+# Owner @leaversy
 
 
 @register(outgoing=True, pattern='^\\.g(?: |$)(.*)')
@@ -37,7 +37,7 @@ async def typewriter(typew):
     await typew.edit(f"**DUAR MEMEK**")
     sleep(3)
     await typew.edit("`KALIAN SEMUA ASWWWW!!!`")
-# Owner @Si_Dian
+# Owner @leaversy
 
 
 @register(outgoing=True, pattern='^\\.P(?: |$)(.*)')
@@ -47,7 +47,7 @@ async def typewriter(typew):
     await typew.edit(f"**ASALAMUALIKUM DULU BIAR SOPAN {DEFAULTUSER}**")
     sleep(2)
     await typew.edit("`PUNTENNNN.....`")
-# Owner @Si_Dian
+# Owner @leaversy
 
 
 @register(outgoing=True, pattern='^\\.p(?: |$)(.*)')
@@ -57,7 +57,7 @@ async def typewriter(typew):
     await typew.edit(f"**ASALAMMUALIKUM DULU BIAR SOPAN {DEFAULTUSER}**")
     sleep(2)
     await typew.edit("`PUNTENNNN.....`")
-# Owner @Si_Dian
+# Owner @leaversy
 
 
 @register(outgoing=True, pattern='^\\.L(?: |$)(.*)')
@@ -67,7 +67,7 @@ async def typewriter(typew):
     await typew.edit("`NIH GW JAWAB SALAM LUH KARNA GW ISLAM...`")
     sleep(1)
     await typew.edit("`وَعَلَيْكُمُ السَّلاَمُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ`")
-# Owner @Si_Dian
+# Owner @leaversy
 
 
 @register(outgoing=True, pattern='^\\.l(?: |$)(.*)')
@@ -77,13 +77,13 @@ async def typewriter(typew):
     await typew.edit("`NIH GW JAWAB SALAM LU KARNA GW ISLAM...`")
     sleep(1)
     await typew.edit("`وَعَلَيْكُمُ السَّلاَمُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ`")
-# Owner @Si_Dian
+# Owner @leaversy
 
 
 CMD_HELP.update({
     "salam":
     "`.P`\
-\nUsage: Untuk Memberi Salam.\
+\n Usage: Untuk Memberi Salam.\
 \n\n`.L`\
-\nUsage: Untuk Menjawab Salam."
+\n Usage: Untuk Menjawab Salam."
 })
