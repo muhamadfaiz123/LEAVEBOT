@@ -24,9 +24,9 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit(f"**ANGKASA BAWA BOTOL**")
+    await typew.edit(f"**DUAR MEMEK**")
     sleep(3)
-    await typew.edit("`KALIAN SEMUA JAMET TOLOL!!!`")
+    await typew.edit("`APA GK SUKA GELUTT!!!`")
 # Owner @Si_Dian
 
 
@@ -34,9 +34,9 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit(f"**ANGKASA BAWA BOTOL**")
+    await typew.edit(f"**DUAR MEMEK**")
     sleep(3)
-    await typew.edit("`KALIAN SEMUA PANTEK PEOPLE!!!`")
+    await typew.edit("`KALIAN SEMUA ASWWWW!!!`")
 # Owner @Si_Dian
 
 
