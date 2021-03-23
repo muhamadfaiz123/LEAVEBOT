@@ -24,7 +24,7 @@
    <br>
    <br>
 </p>
-<h1>SPACE-BOT</h1>
+<h1>LEAVE-BOT</h1>
 <b>BASE BOT FROM: <a href="https://github.com/ManusiaRakitan/Kampang-Bot">KAMPANG-BOT!</b>
 <br>
 <br>
