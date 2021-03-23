@@ -100,7 +100,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/AngkasaBoy/Space-Bot.git")
+    "https://github.com/muhamadfaiz123/LEAVEBOT.git")
 UPSTREAM_REPO_BRANCH = os.environ.get(
     "UPSTREAM_REPO_BRANCH", "Kampang")
 
@@ -166,7 +166,7 @@ ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "SPACE-BOT")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "LEAVE-BOT")
 
 # Bot version
 BOT_VER = os.environ.get("BOT_VER", "4.0")
@@ -318,7 +318,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```SPACE-BOT 🚀\nTELAH DIAKTIFKAN```")
+    await bot.send_message(BOTLOG_CHATID, "```LEAVE-BOT 👾\nTELAH DIAKTIFKAN```")
     return
 
 with bot:
@@ -389,7 +389,7 @@ with bot:
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             if event.message.from_id != uid:
-                await event.reply("I'm [SPACE BOT](https://github.com/AngkasaBoy/Space-Bot) modules helper...\nplease make your own bot, don't use mine 😋")
+                await event.reply("I'm [LEAVE BOT](https://github.com/muhamadfaiz123/LEAVE-BOT) modules helper...\nplease make your own bot, don't use mine 😋")
             else:
                 await event.reply(f"`Hey {ALIVE_NAME}\n\nGua Bekerja Untuk Lu :)`")
 
@@ -402,8 +402,8 @@ with bot:
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = builder.article(
                     "Please Use Only With .help Command",
-                    text="{}\nTotal Semua Module: {}\n               \n **MODULE INFO SPACE-BOT** \n".format(
-                        "SPACE-BOT modules helper",
+                    text="{}\nTotal Semua Module: {}\n               \n **MODULE INFO LEAVE-BOT** \n".format(
+                        "LEAVE-BOT modules helper",
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -411,22 +411,22 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "SPACE-BOT Helper",
+                    "LEAVE-BOT Helper",
                     text="List of Modules",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    "BOT SPACE",
+                    "LEAVE-BOT",
                     text="""You can convert your account to bot and use them. Remember, you can't manage someone else's bot! All installation details are explained from GitHub address below.""",
                     buttons=[
                         [
                             custom.Button.url(
                                 "GitHub Repo",
-                                "https://github.com/AngkasaBoy/Space-Bot"),
+                                "https://github.com/muhamadfaiz123/LEAVEBOT"),
                             custom.Button.url(
                                 "Support",
-                                "https://t.me/storyangkasa")],
+                                "https://t.me/leaversy")],
                     ],
                     link_preview=False,
                 )
