@@ -44,7 +44,7 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit(f"**HALO PANTEK PEOPLE GUA {DEFAULTUSER}**")
+    await typew.edit(f"**ASALAMUALIKUM DULU BIAR SOPAN {DEFAULTUSER}**")
     sleep(2)
     await typew.edit("`PUNTENNNN.....`")
 # Owner @Si_Dian
@@ -54,7 +54,7 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit(f"**HALO PANTEK PEOPLE GUA {DEFAULTUSER}**")
+    await typew.edit(f"**ASALAMMUALIKUM DULU BIAR SOPAN {DEFAULTUSER}**")
     sleep(2)
     await typew.edit("`PUNTENNNN.....`")
 # Owner @Si_Dian
@@ -64,7 +64,7 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit("`Bentar Gua Jawab Salam Lu...`")
+    await typew.edit("`NIH GW JAWAB SALAM LUH KARNA GW ISLAM...`")
     sleep(1)
     await typew.edit("`وَعَلَيْكُمُ السَّلاَمُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ`")
 # Owner @Si_Dian
@@ -74,7 +74,7 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit("`Bentar Gua Jawab Salam Lu...`")
+    await typew.edit("`NIH GW JAWAB SALAM LU KARNA GW ISLAM...`")
     sleep(1)
     await typew.edit("`وَعَلَيْكُمُ السَّلاَمُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ`")
 # Owner @Si_Dian
@@ -83,7 +83,7 @@ async def typewriter(typew):
 CMD_HELP.update({
     "salam":
     "`.P`\
-\nUsage: Untuk Memberi Hujatan.\
+\nUsage: Untuk Memberi Salam.\
 \n\n`.L`\
 \nUsage: Untuk Menjawab Salam."
 })
