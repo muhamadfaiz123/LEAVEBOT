@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://telegra.ph/file/14ea2986491e70791140e.jpg",
+  "repository": "https://github.com/muhamadfaiz123/LEAVEBOT",
   "website": "https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02",
   "success_url": "https://t.me/leoangkasaaa",
   "stack": "container",
@@ -150,7 +150,7 @@
     },
     "DEFAULT_BIO": {
       "description": "Default profile bio.",
-      "value": "SPACE-BOT",
+      "value": "LEAVE-BOT",
       "required": false
     },
     "ALIVE_NAME": {
